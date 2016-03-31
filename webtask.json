@@ -1,0 +1,16 @@
+{
+  "title": "Sample Extension Cron",
+  "name": "sample-extension-cron",
+  "version": "1.0.0",
+  "author": "javier.centurion@auth0.com",
+  "description": "A Sample Extension",
+  "type": "cron",
+  "schedule": "0 */5 * * * *",
+  "codeUrl": "https://raw.githubusercontent.com/jcenturion/sample-extension-cron/master/build/bundle.js",
+  "keywords": [
+    "auth0"
+  ],
+  "auth0": {
+    "scopes": "read:connections read:clients"
+  }
+}
